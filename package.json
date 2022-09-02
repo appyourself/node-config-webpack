@@ -4,6 +4,7 @@
   "description": "Plugin that makes node-config work with Webpack",
   "main": "index.js",
   "scripts": {
+    "prepare": "npm run build",
     "build": "babel -d dist src",
     "test": "mocha --require babel-register",
     "test3": "npm install webpack@3.x && npm run test",
